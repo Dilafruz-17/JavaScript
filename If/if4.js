@@ -1,27 +1,26 @@
 let num1 = 2;
 let num2 = -5;
-let num3 = 9;
+let num3 = -9;
 
 let musbat = 0
-let manfiy = 0
 
 if(num1 > 0){
     musbat++
 } else{
-    manfiy++
+    musbat
 }
 
 if(num2 > 0){
     musbat++
 } else{
-    manfiy++
+    musbat
 }
 
 if(num3 > 0){
     musbat++
 } else{
-    manfiy++
+    musbat
 }
 
 console.log("musbat sonlar", musbat)
-console.log("manfiy sonlar", manfiy)
+ 
