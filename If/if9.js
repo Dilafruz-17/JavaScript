@@ -1,8 +1,8 @@
 let num1 = 6;
 let num2 = 4;
 
-let max;
-let min;
+let katta;
+let kichik;
 
 let temp;
 
