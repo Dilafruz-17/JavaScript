@@ -1,5 +1,8 @@
-let a = 10;
+let count = 0
 
-for(let b = 20; b > a; b--){
-    console.log(b)
+for(let a = 20; a > 10; a--){
+    count += 1
+   console.log(a)
 }
+ 
+console.log(`chiqarilgan sonlar soni ${count}`)
