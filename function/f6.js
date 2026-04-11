@@ -1,8 +1,16 @@
-function DigitCountSum(a){
-    let num = a
-    let length = num.toString().split('').length
-    let add += length
-    return [length, add]
+function DigitCountSum(num){
+
+  let str = num.toString()
+  let sum = 0
+
+  for(let i = 0; i < str.length; i++){
+    sum += parseInt(str[i])
+  }
+
+
+  console.log(`sonlar soni ${str.length}`)
+  console.log(`sonlar yigiindisi ${sum}`)
 }
-let result = DigitCountSum(56)
-console.log(result)
+
+DigitCountSum(102)
+   

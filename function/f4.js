@@ -1,6 +1,6 @@
 function Triangle(a){
-    P = 2 * a
-    S = a ** 3
+    P = 3 * a
+    S = (3 ** 0.5 / 4) * a ** 2
     return [ P, S]
 }
 

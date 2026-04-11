@@ -7,3 +7,4 @@ function PowerA234(a){
 
 let result = PowerA234(2)
 console.log(result)
+

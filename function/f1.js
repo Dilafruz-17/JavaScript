@@ -1,4 +1,3 @@
-
 function PowerA3(a){
     return a ** 3
 }
