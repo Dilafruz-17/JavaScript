@@ -1,13 +1,9 @@
 function ShiftRight3(a, b, c){
     let temp;
-    temp = b;
-    b = a;
+    temp = c;
     c = b;
-    c = temp;
-
-
-
-
+    b = a;
+    a = temp;
     console.log(`a = ${a}, b = ${b}, c = ${c}`)
 }
 
