@@ -1,5 +1,10 @@
-let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+function oddNum(a) {
+    let arr = []
 
-let oddNum = arr.filter(num => num % 2 !== 0)
+    for (let i = 0; i < a; i++) {
+        arr.push(2 * i + 1)
+    }
 
-console.log(oddNum)
+    console.log(arr)
+}
+oddNum(5)
