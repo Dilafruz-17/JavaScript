@@ -1,0 +1,1 @@
+// massiveda juft va toq elementlar ketma-ket kelishini tekshiruvchi programma tuzilsin
