@@ -8,9 +8,11 @@ function oddNumber(n) {
     let index = []
 
     for(let i = 0; i < arr.length; i++){
-        
+         if(i % 2 === 0){
+            index.push(arr[i])
+         }
     }
 
-    console.log(filtered, `toq sonlar soni ${filtered.length}`)
+    console.log(index, `toq sonlar soni ${index.length}`)
 }
 oddNumber(10)

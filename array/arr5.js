@@ -1,11 +1,17 @@
 function fibonachchi(n){
     let arr = []
-    let f1 = 0;
-    let f2 = 1
-    for(let i = f1; i < n; i++){
+
+    for(let i = 0; i < n; i++){
         arr.push(i)
     }
 
-    console.log(arr)
+    let index = []
+
+    for(let k = 2; k < arr.length; k++){
+        index.push(arr[k] = arr[k - 1] + arr[k - 2])
+    }
+
+    console.log(index)
+     
 }
 fibonachchi(10)
