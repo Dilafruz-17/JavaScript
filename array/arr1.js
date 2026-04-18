@@ -2,9 +2,11 @@ function oddNum(a) {
     let arr = []
 
     for (let i = 0; i < a; i++) {
-        arr.push(2 * i + 1)
+        arr.push(i)
     }
 
-    console.log(arr)
+    let filtered = arr.filter(i => i % 2 !== 0)
+
+    console.log(filtered)
 }
-oddNum(5)
+oddNum(10)

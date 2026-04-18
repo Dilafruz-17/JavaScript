@@ -1,15 +1,14 @@
 function evenNumber(n) {
     let arr = []
-    let count = 0
+
     for (let i = 0; i < n; i++) {
-        if (i % 2 === 0) {
-            arr.push(i)
-            count += 1
-        }
-
+        arr.push(i)
     }
-    let reversed = arr.reverse()
+ 
+    let filtered = arr.filter((i, index) => index % 2 === 0)
 
-    console.log(count, reversed)
+    let reversed = filtered.reverse()
+
+    console.log(reversed, `juft sonlar soni ${filtered.length}`)
 }
 evenNumber(10)

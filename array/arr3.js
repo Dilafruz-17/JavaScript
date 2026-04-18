@@ -1,6 +1,3 @@
-//n natural soni va arifmetik progressiyaning dastlabki hadi
-//A va ayirma D berilgan. Arifmetik progressiyaning dastlabki n ta hdidian tashkil topgan massivni hosil qiling va elementlarni chiqaring
-
 function arifmetik(n){
     let a1 = 2;
     let d = 3
@@ -10,7 +7,7 @@ function arifmetik(n){
     for(let i = a1; i <= an; i+=d){
         arr.push(i)
     }
-    console.log(arr)
 
+    console.log(arr)
 }
-arifmetik(10)
+arifmetik(5)

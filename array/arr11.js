@@ -4,7 +4,8 @@ function isDevision(n, k){
     for(let i = 1; i <= n; i++){
         arr.push(i)
     }
-    let filtered = arr.filter(num => num % k === 0)
+
+    let filtered = arr.filter((num, index) => index % k === 0)
      
     console.log(filtered)
 }

@@ -3,21 +3,20 @@ function addOddEven(n) {
     let arrOdd = []
 
     for (let i = 0; i < n; i++) {
-        if (i % 2 === 0) {
-            arrEven.push(i)
-        }
+        arrEven.push(i)
     }
 
 
     for (let i = 0; i < n; i++) {
-        if (i % 2 !== 0) {
-            arrOdd.push(i)
-        }
+        arrOdd.push(i)
     }
+ 
+    let filteredEven = arrEven.filter((num, index) => index % 2 === 0)
+    let filteredOdd = arrOdd.filter((num, index) => index % 2 !== 0)
 
-    let reversed = arrOdd.reverse()
+    let reversed = filteredOdd.reverse()
 
-    let addArr = arrEven.concat(reversed)
+    let addArr = filteredEven.concat(reversed)
 
     console.log(addArr)
 }

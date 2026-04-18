@@ -1,15 +1,12 @@
-function oddNumber(n){
-let arr = []
-let count = 0
+function oddNumber(n) {
+    let arr = []
 
-for(let i = 0; i < n; i++){
-    if(i % 2 !== 0){
+    for (let i = 0; i < n; i++) {
         arr.push(i)
-        count += 1
     }
-    
-}
 
-console.log(count, arr)
+    let filtered = arr.filter((i, index) => index % 2 !== 0)
+
+    console.log(filtered, `toq sonlar soni ${filtered.length}`)
 }
 oddNumber(10)

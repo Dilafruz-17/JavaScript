@@ -1,14 +1,15 @@
 function oddNumber(n){
     let arr = []
 
-    for(let i = 1; i < n; i++){
+    for(let i = 1; i <= n; i++){
         arr.push(i)
     }
 
-    let filtered = arr.filter(i =>i % 2 !== 0)
-
-    console.log(filtered)
+    let filtered = arr.filter((i, index) =>index % 2 !== 0)
+    let reversed = filtered.reverse()
+    console.log(reversed)
 }
-oddNumber(10)
-// 0 1 2 3 4 5 6 7 8 9
-// 
+oddNumber(11)
+// 1 2 3 4 5 6 7 8 9 10 11
+// 0 1 2 3 4 5 6 7 8 9  10
+// 9
