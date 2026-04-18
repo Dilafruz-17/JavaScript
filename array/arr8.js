@@ -5,7 +5,11 @@ function oddNumber(n) {
         arr.push(i)
     }
 
-    let filtered = arr.filter((i, index) => index % 2 !== 0)
+    let index = []
+
+    for(let i = 0; i < arr.length; i++){
+        
+    }
 
     console.log(filtered, `toq sonlar soni ${filtered.length}`)
 }
